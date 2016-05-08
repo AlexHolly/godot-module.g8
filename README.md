@@ -13,6 +13,3 @@ Go to your favourite shell and enter
 
     g8 alexholly/godot-module
     cd [app-name]
-    sbt compile
-    
-
