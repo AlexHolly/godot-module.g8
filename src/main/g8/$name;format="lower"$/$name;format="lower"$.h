@@ -4,8 +4,8 @@
 
 #include "reference.h"
 
-class $name;format="Camel"$ : public Reference {
-    OBJ_TYPE($name;format="Camel"$,Reference);
+class $name$ : public Reference {
+    GDCLASS($name$,Reference);
 
     int count;
 
@@ -17,7 +17,7 @@ public:
     void reset();
     int get_total() const;
 
-    $name;format="Camel"$();
+    $name$();
 };
 
 #endif
